@@ -9,6 +9,7 @@
   --tertiary:#023047;
 }
 
+/* BODY */
 body {
   margin: 0;
   padding: 0;
@@ -29,16 +30,63 @@ p {
   margin: 0;
 }
 
+/* HEADER */
+/* Giving header main primary colour */
 header{
   background-color: var(--primary);
+  height: 93px;
+  display: flex;
+  align-items: center;
 }
 
+/* Adding styling to h1 in header */
 header h1{
+  height: 60px;
+  padding-top: 10px;
+  margin-right: 10px;
+  width: 350px;
   background-color: var(--secondary);
+  color: var(--primary);
 }
+
+/* Adding styling to flex items 'nav' elements e.g contact */
+.flex_item{
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-size: 20px;
+  float: right;
+}
+.flex_item:hover{
+  background-color: var(--secondary);
+  color: var(--primary);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/* Add styling to list items in header */
+header ul{
+  justify-content: end;
+}
+
+/* Adding background image to hero banner */
+.hero-banner{
+  background-image: url("../images/02-hero-bg.jpg");
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.hero-banner h2{
+  background-color: var(--secondary);
+  color: var(--primary);
+  position: relative;
+}
+
+
 
 /* Add colour for links in contact section */
 #contact a{
   color: var(--tertiary);
-
 }
