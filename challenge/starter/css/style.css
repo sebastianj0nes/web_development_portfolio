@@ -37,17 +37,11 @@ header{
   height: 93px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-.parent_flex{
-  display: flex;
-  justify-content: end;
-}
+
 
 /* Adding styling to h1 in header */
-.h1_flex{
-  justify-content: start;
-}
-
 header h1{
   height: 60px;
   padding-top: 10px;
@@ -59,6 +53,7 @@ header h1{
 
 nav{
   display: flex;
+  margin-right: 70px;
 }
 
 /* Adding styling to flex items 'nav' elements e.g contact */
@@ -93,19 +88,11 @@ nav{
   justify-content: end;
 }
 
-.layer {
-  background-color: rgba(248, 247, 216, 0.7);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .hero-banner h2{
+  display: flex;
   background-color: var(--secondary);
   color: var(--primary);
-  position: relative;
+  align-items:flex-end;
 }
 
 
