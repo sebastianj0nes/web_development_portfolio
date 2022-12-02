@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Declaring variables for colours to reuse later */
+:root{
+  --primary:#6d6875;
+  --secondary:#8ecae6;
+  --tertiary:#023047;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header{
+  background-color: var(--primary);
+}
+
+header h1{
+  background-color: var(--secondary);
+}
+
+/* Add colour for links in contact section */
+#contact a{
+  color: var(--tertiary);
+
+}
