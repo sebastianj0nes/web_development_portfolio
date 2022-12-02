@@ -159,17 +159,37 @@ main h2{
   margin: 0px 5%;
   display: grid;
   min-height: 500px;
-  height: 120vh;
+  height: 60vh;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  ""
-  ""
-  ""
-  ""
+  "port1 port1"
+  "port1 port1"
+  "port2 port3"
+  "port4 runbuddy"
   ;
 }
 
+#port1{
+  grid-area: port1;
+  background-image: url("./images/02-portfolio-1.jpg");
+}
+#port2{
+  grid-area: port2;
+  background-image: url("./challenge/starter/images/02-portfolio-2.jpg");
+}
+#port3{
+  grid-area: port3;
+  background-image: url("./challenge/starter/images/02-portfolio-3.jpg");
+}
+#port4{
+  grid-area: port4;
+  background-image: url("./challenge/starter/images/02-portfolio-4.jpg");
+}
+#runbuddy{
+  grid-area: runbuddy;
+  background-image: url("./challenge/starter/images/02-run-buddy.jpg");
+}
 
 
 
