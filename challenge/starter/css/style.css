@@ -6,10 +6,11 @@
 :root{
   --primary:#6d6875;
   --secondary:#8ecae6;
-  --tertiary:#023047;
+  --tertiary:#457b9d;
 }
 
 /* BODY */
+
 body {
   margin: 0;
   padding: 0;
@@ -31,6 +32,7 @@ p {
 }
 
 /* HEADER */
+
 /* Giving header main primary colour */
 header{
   background-color: var(--primary);
@@ -56,6 +58,8 @@ nav{
   margin-right: 70px;
 }
 
+/* FLEXBOX */
+
 /* Adding styling to flex items 'nav' elements e.g contact */
 .flex_item{
   background-color: var(--primary);
@@ -64,8 +68,7 @@ nav{
   
 }
 
-.flex_item a{
-  text-decoration: none;
+a{
   color: var(--secondary);
 }
 
@@ -77,6 +80,7 @@ nav{
   cursor: pointer;
 }
 
+/* BANNER */
 
 /* Adding background image to hero banner */
 .hero-banner{
@@ -86,6 +90,7 @@ nav{
   width: 100%;
   display: flex;
   justify-content: end;
+  padding-bottom: 10px;
 }
 
 .hero-banner h2{
@@ -95,7 +100,91 @@ nav{
   align-items:flex-end;
 }
 
+.subtitle{
+  align-content: end;
+}
 
+
+/* MAIN - ABOUT/WORK SECTION */
+
+/* Initialising category grid */
+main{
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 120vh;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 17% 83%;
+  grid-template-areas: 
+  "about about-info"
+  "work  work-info"
+  "contact  contact"
+  ;
+  padding: 10px;
+}
+
+/* Main header2 styling */
+main h2{
+  font-size: 30px;
+  padding: 20px;
+  color: var(--tertiary);
+  width: 150px;
+  height: 120px;
+}
+
+
+/* Initialising grid sections to be used */
+#about{
+  grid-area: about;
+}
+#about-info{
+  grid-area: about-info;
+  padding: 10px;
+  font-size: 22px;
+}
+#about-info p{
+  border-left: 4px solid var(--tertiary);
+  padding-left: 28px;
+}
+#work{
+  grid-area: work;
+}
+#work-info{
+  grid-area: work-info;
+}
+
+/* NESTED GRID */
+/* Grid for work examples */
+#work-grid{
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 120vh;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  ""
+  ""
+  ""
+  ""
+  ;
+}
+
+
+
+
+#contact{
+  grid-area: contact;
+}
+
+
+
+
+
+
+
+
+/* CONTACT */
 
 /* Add colour for links in contact section */
 #contact a{
