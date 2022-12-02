@@ -26,3 +26,4 @@ MIT License. Please refer to the repository.
 
 
 ## Link to website
+https://sebastianj0nes.github.io/web_development_portfolio/
