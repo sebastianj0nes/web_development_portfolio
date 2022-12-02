@@ -38,8 +38,16 @@ header{
   display: flex;
   align-items: center;
 }
+.parent_flex{
+  display: flex;
+  justify-content: end;
+}
 
 /* Adding styling to h1 in header */
+.h1_flex{
+  justify-content: start;
+}
+
 header h1{
   height: 60px;
   padding-top: 10px;
@@ -49,13 +57,24 @@ header h1{
   color: var(--primary);
 }
 
+nav{
+  display: flex;
+}
+
 /* Adding styling to flex items 'nav' elements e.g contact */
 .flex_item{
   background-color: var(--primary);
-  color: var(--secondary);
-  font-size: 20px;
-  float: right;
+  font-size: 25px;
+  padding: 11px;
+  
 }
+
+.flex_item a{
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+/* Adding styling to elements when hovering */
 .flex_item:hover{
   background-color: var(--secondary);
   color: var(--primary);
@@ -63,19 +82,24 @@ header h1{
   cursor: pointer;
 }
 
-/* Add styling to list items in header */
-header ul{
-  justify-content: end;
-}
 
 /* Adding background image to hero banner */
 .hero-banner{
   background-image: url("../images/02-hero-bg.jpg");
   background-repeat: no-repeat;
-  height: 200px;
+  height: 180px;
   width: 100%;
   display: flex;
   justify-content: end;
+}
+
+.layer {
+  background-color: rgba(248, 247, 216, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .hero-banner h2{
