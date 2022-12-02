@@ -4,6 +4,7 @@
 Professional resume to display previous projects made using responsive web development tools, including;
 - HTML
 - CSS
+<br/>
 Made from scratch, with a mock template given to try replicate.
 
 ## Installation 
