@@ -91,6 +91,9 @@ a{
   display: flex;
   justify-content: end;
   padding-bottom: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-banner h2{
@@ -162,7 +165,6 @@ main a{
 /* NESTED GRID */
 /* Grid for work examples */
 #work-grid{
-  margin: 10px 5%;
   display: grid;
   min-height: 500px;
   height: 90vh;
