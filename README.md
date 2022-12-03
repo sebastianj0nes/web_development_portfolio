@@ -1,11 +1,9 @@
 # Web Development Portfolio
 
 ## Description
-Professional resume to display previous projects made using responsive web development tools, including;
-- HTML
-- CSS
+Professional resume to display previous projects made using responsive web development tools, including; HTML and CSS.
 <br/>
-Made from scratch, with a mock template given to try replicate.
+Made from scratch, using a mock template as reference for design.
 
 ## Installation 
 No installation. Load the website.
@@ -21,8 +19,9 @@ No collaborators.
 
 ## Features
 
-- Semantic HTML features following a structure
-- Flexboxes, Grids & Nested Grids with descriptive comments
+- Semantic HTML features following a logical structure
+- Flexboxes, Grids & Nested Grids 
+- Descriptive comments 
 - Working links to take to destined part of website
 
 
