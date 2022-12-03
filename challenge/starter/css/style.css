@@ -255,7 +255,6 @@ main a{
   align-items: center;
 }
 
-
 /* CONTACT */
 
 /* Add colour for links in contact section */
@@ -271,4 +270,66 @@ main a{
   justify-content:space-evenly;
   align-items: center;
   font-size: 30px;
+}
+
+/* MEDIA QUERIES */
+/* Adding responsiveness - resizing based on screen sizes */
+/* largest size 980+ */
+/* mid size 770-979px */
+/* small size 0-769px */
+@media only screen and (min-width:770px) and (max-width:979px) {
+
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+  }
+
+  #about,
+  #work,
+  #contact{
+    border-right:0px;
+    border-bottom: 4px solid var(--tertiary);
+    padding-left: 28px;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+  nav{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main{
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 150vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 17% 83%;
+    grid-template-areas: 
+    "about about"
+    "about-info  about-info"
+    "work work"
+    "work-info work-info"
+    "contact contact"
+    "contact-info contact-info"
+    ;
+    padding: 10px;
+  }
 }
