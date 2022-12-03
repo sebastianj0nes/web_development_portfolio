@@ -236,7 +236,18 @@ main a{
   grid-area: contact;
 }
 
-
+.work_heading{
+  background-color: var(--secondary);
+  width: 160px;
+  padding: 15px;
+  margin-bottom: 20px;
+  height: 40px;
+  color: var(--primary);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
