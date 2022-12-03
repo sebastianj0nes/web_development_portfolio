@@ -332,4 +332,10 @@ main a{
     ;
     padding: 10px;
   }
+
+  .hero-banner h2{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+  }
 }

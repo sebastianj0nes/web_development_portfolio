@@ -4,6 +4,8 @@
 Professional resume to display previous projects made using responsive web development tools, including; HTML and CSS.
 <br/>
 Made from scratch, using a mock template as reference for design.
+<br/>
+Unique colour styling added.
 
 ## Installation 
 No installation. Load the website.
@@ -23,6 +25,7 @@ No collaborators.
 - Flexboxes, Grids & Nested Grids 
 - Descriptive comments 
 - Working links to take to destined part of website
+- Media queries to add responsiveness on different screen sizes
 
 
 
