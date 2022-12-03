@@ -201,12 +201,11 @@ main a{
   background-image: url("../images/02-run-buddy.jpg");
 }
 
-#portfolioGridArea{
+.portfolioGridArea{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5px;
-  cursor: pointer;
   display: grid;
   align-content: end;
 }
