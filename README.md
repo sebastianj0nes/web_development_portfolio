@@ -30,6 +30,12 @@ No collaborators.
 - Working links to take to destined part of website
 - Media queries to add responsiveness on different screen sizes
 
+<br/>
+Example of responsiveness;
+![](../web_development_portfolio/images/normal_size.png)
+![Normal Size](../web_development_portfolio/images/normal_size.png)
+<br/>
+![Smaller size](../web_development_portfolio/images/smaller_size.png)
 
 
 ## License
