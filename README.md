@@ -6,6 +6,9 @@ Professional resume to display previous projects made using responsive web devel
 Made from scratch, using a mock template as reference for design.
 <br/>
 Unique colour styling added.
+<br/>
+Note: in portfolio section, only front-end index is a real project example that can be clicked on.
+All other images are placeholders, with dead links.
 
 ## Installation 
 No installation. Load the website.

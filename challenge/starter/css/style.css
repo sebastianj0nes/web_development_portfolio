@@ -277,6 +277,8 @@ main a{
 /* largest size 980+ */
 /* mid size 770-979px */
 /* small size 0-769px */
+
+/* MEDIUM SIZED SCREEN */
 @media only screen and (min-width:770px) and (max-width:979px) {
 
   header{
@@ -338,4 +340,91 @@ main a{
     right: 50px;
     top: 50px;
   }
+}
+
+
+/* SMALL SIZE SCREEN */
+
+@media only screen and (max-width:769px) {
+  header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+  }
+
+  #about,
+  #work,
+  #contact{
+    border-right:0px;
+    border-bottom: 4px solid var(--tertiary);
+    padding-left: 28px;
+    padding-top: 20px;
+    margin: 10px;
+}
+
+  nav{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  main{
+    margin: 0px 5%;
+    display: grid;
+    min-height: 500px;
+    height: 150vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 17% 83%;
+    grid-template-areas: 
+    "about about"
+    "about-info  about-info"
+    "work work"
+    "work-info work-info"
+    "contact contact"
+    "contact-info contact-info"
+    ;
+    padding: 10px;
+  }
+
+  .hero-banner h2{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+  }
+
+  #work-grid{
+    display: grid;
+    min-height: 500px;
+    height: 90vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "port1"
+    "port2"
+    "port3"
+    "port4"
+    "runbuddy"
+    ;
+    padding-left: 60px;
+  }
+
+  #contact-info{
+    justify-content: space-evenly;
+  }
+
+
 }
