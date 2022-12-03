@@ -112,21 +112,20 @@ main{
   margin: 0px 5%;
   display: grid;
   min-height: 500px;
-  height: 120vh;
+  height: 150vh;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 17% 83%;
   grid-template-areas: 
   "about about-info"
   "work  work-info"
-  "contact  contact"
+  "contact  contact-info"
   ;
   padding: 10px;
 }
 
 /* Main header2 styling */
 main h2{
-  font-size: 45px;
-  padding: 10px;
+  font-size: 38px;
   color: var(--tertiary);
   width: 150px;
   height: 120px;
@@ -145,9 +144,13 @@ main a{
   padding: 10px;
   font-size: 22px;
 }
-#about-info p{
-  border-left: 4px solid var(--tertiary);
+#about,
+#work,
+#contact{
+  border-right: 4px solid var(--tertiary);
   padding-left: 28px;
+  padding-top: 20px;
+  margin: 10px;
 }
 #work{
   grid-area: work;
@@ -159,43 +162,54 @@ main a{
 /* NESTED GRID */
 /* Grid for work examples */
 #work-grid{
-  margin: 0px 5%;
+  margin: 10px 5%;
   display: grid;
   min-height: 500px;
-  height: 60vh;
+  height: 90vh;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
-  "port1 port1"
+  "port1 port1" 
   "port1 port1"
   "port2 port3"
   "port4 runbuddy"
   ;
+  padding-left: 60px;
+  
 }
 
+/* PORTFOLIO IMAGES */
 /* Initialising work grid elements */
 #port1{
   grid-area: port1;
-  background-image: url("./images/02-portfolio-1.jpg");
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 #port2{
   grid-area: port2;
-  background-image: url("./challenge/starter/images/02-portfolio-2.jpg");
+  background-image: url("../images/02-portfolio-1.jpg");
 }
 #port3{
   grid-area: port3;
-  background-image: url("./challenge/starter/images/02-portfolio-3.jpg");
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 #port4{
   grid-area: port4;
-  background-image: url("./challenge/starter/images/02-portfolio-4.jpg");
+  background-image: url("../images/02-portfolio-4.jpg");
 }
 #runbuddy{
   grid-area: runbuddy;
-  background-image: url("./challenge/starter/images/02-run-buddy.jpg");
+  background-image: url("../images/02-run-buddy.jpg");
 }
 
-
+#portfolioGridArea{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+  cursor: pointer;
+  display: grid;
+  align-content: end;
+}
 
 #contact{
   grid-area: contact;
@@ -213,4 +227,14 @@ main a{
 /* Add colour for links in contact section */
 #contact a{
   color: var(--tertiary);
+}
+
+
+/* Contact Info */
+#contact-info{
+  grid-area: contact-info;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  font-size: 30px;
 }
