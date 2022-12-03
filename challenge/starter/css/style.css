@@ -98,26 +98,21 @@ a{
 }
 
 .hero-banner h2{
-  display: flex;
   background-color: var(--secondary);
   color: var(--primary);
-  align-items:flex-end;
-}
-
-#colour-overlay{
+  height: 40px;
+  width: 280px;
   position: relative;
+  top: 110px;
+  left: 1040px;
 }
 
-#colour-overlay:before {
-  content:"";
-  position: absolute;
-  top:0;
-  left:0;
-  height:100%;
-  width:100%;
-  background: rgba(46, 141, 220, 0.5);
-  z-index:999;
+.image-overlay{
+  width: 100%;
+  height: 180px;
+  background-color: rgba(53, 164, 204, 0.4);
 }
+
 
 .subtitle{
   align-content: end;
@@ -196,7 +191,7 @@ main a{
 }
 
 /* PORTFOLIO IMAGES */
-/* Initialising work grid elements */
+/* Initialising work grid elements & adding photos */
 #port1{
   grid-area: port1;
   background-image: url("../images/front_end_index.png");
@@ -232,10 +227,21 @@ main a{
   align-content: end;
 }
 
+#port1:hover,
+#port2:hover,
+#port3:hover,
+#port4:hover,
+#runbuddy:hover{
+  transform:scale(1.05);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
 #contact{
   grid-area: contact;
 }
 
+/* Headers for writing on top of portfolio images */
 .work_heading{
   background-color: var(--secondary);
   width: 160px;
@@ -248,10 +254,6 @@ main a{
   justify-content: center;
   align-items: center;
 }
-
-
-
-
 
 
 /* CONTACT */
