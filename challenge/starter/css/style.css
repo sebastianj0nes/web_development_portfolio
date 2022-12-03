@@ -115,7 +115,7 @@ a{
   left:0;
   height:100%;
   width:100%;
-  background: rgba(196, 66, 66, 0.5);
+  background: rgba(46, 141, 220, 0.5);
   z-index:999;
 }
 
@@ -199,7 +199,7 @@ main a{
 /* Initialising work grid elements */
 #port1{
   grid-area: port1;
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("../images/front_end_index.png");
   border: 6px solid var(--secondary);
 }
 #port2{
