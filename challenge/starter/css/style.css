@@ -4,8 +4,8 @@
 
 /* Declaring variables for colours to reuse later */
 :root{
-  --primary:#6d6875;
-  --secondary:#8ecae6;
+  --primary:#d62828;
+  --secondary:#f2cc8f;
   --tertiary:#457b9d;
 }
 
@@ -125,15 +125,18 @@ main{
 
 /* Main header2 styling */
 main h2{
-  font-size: 30px;
-  padding: 20px;
+  font-size: 45px;
+  padding: 10px;
   color: var(--tertiary);
   width: 150px;
   height: 120px;
 }
 
+main a{
+  color: var(--tertiary);
+}
 
-/* Initialising grid sections to be used */
+/* Initialising grid sections elements */
 #about{
   grid-area: about;
 }
@@ -170,6 +173,7 @@ main h2{
   ;
 }
 
+/* Initialising work grid elements */
 #port1{
   grid-area: port1;
   background-image: url("./images/02-portfolio-1.jpg");
