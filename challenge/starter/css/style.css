@@ -16,6 +16,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: #f6fff8;
 }
 
 h1,
@@ -73,7 +74,7 @@ a{
 }
 
 /* Adding styling to elements when hovering */
-.flex_item:hover{
+.flex_item a:hover{
   background-color: var(--secondary);
   color: var(--primary);
   transition-duration: 0.4s;
@@ -101,6 +102,21 @@ a{
   background-color: var(--secondary);
   color: var(--primary);
   align-items:flex-end;
+}
+
+#colour-overlay{
+  position: relative;
+}
+
+#colour-overlay:before {
+  content:"";
+  position: absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  background: rgba(196, 66, 66, 0.5);
+  z-index:999;
 }
 
 .subtitle{
@@ -162,7 +178,7 @@ main a{
   grid-area: work-info;
 }
 
-/* NESTED GRID */
+/* NESTED GRID - PROJECTS */
 /* Grid for work examples */
 #work-grid{
   display: grid;
@@ -177,7 +193,6 @@ main a{
   "port4 runbuddy"
   ;
   padding-left: 60px;
-  
 }
 
 /* PORTFOLIO IMAGES */
@@ -185,22 +200,27 @@ main a{
 #port1{
   grid-area: port1;
   background-image: url("../images/02-portfolio-2.jpg");
+  border: 6px solid var(--secondary);
 }
 #port2{
   grid-area: port2;
   background-image: url("../images/02-portfolio-1.jpg");
+  border: 6px solid var(--secondary);
 }
 #port3{
   grid-area: port3;
   background-image: url("../images/02-portfolio-3.jpg");
+  border: 6px solid var(--secondary);
 }
 #port4{
   grid-area: port4;
   background-image: url("../images/02-portfolio-4.jpg");
+  border: 6px solid var(--secondary);
 }
 #runbuddy{
   grid-area: runbuddy;
   background-image: url("../images/02-run-buddy.jpg");
+  border: 6px solid var(--secondary);
 }
 
 .portfolioGridArea{
