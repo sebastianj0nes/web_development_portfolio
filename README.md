@@ -32,10 +32,9 @@ No collaborators.
 
 <br/>
 Example of responsiveness;
-![](../web_development_portfolio/images/normal_size.png)
-![Normal Size](../web_development_portfolio/images/normal_size.png)
+![](/images/normal_size.png)
+![](/images/smaller_size.png)
 <br/>
-![Smaller size](../web_development_portfolio/images/smaller_size.png)
 
 
 ## License

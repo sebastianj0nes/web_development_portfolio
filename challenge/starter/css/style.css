@@ -363,6 +363,9 @@ main a{
     font-size: 40px;
   }
 
+  header a{
+  }
+
   #about,
   #work,
   #contact{
@@ -425,6 +428,9 @@ main a{
   #contact-info{
     justify-content: space-evenly;
   }
+
+
+
 
 
 }
