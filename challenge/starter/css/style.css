@@ -74,11 +74,16 @@ a{
 }
 
 /* Adding styling to elements when hovering */
-.flex_item a:hover{
+a:hover{
+  font-size: 40px;
   background-color: var(--secondary);
   color: var(--primary);
   transition-duration: 0.4s;
   cursor: pointer;
+}
+a{
+  transition-duration: 0.3s;
+
 }
 
 /* BANNER */
@@ -236,9 +241,17 @@ main a{
 #port3:hover,
 #port4:hover,
 #runbuddy:hover{
-  transform:scale(1.05);
   cursor: pointer;
+  transform: scale(1.05);
+}
+
+#port1,
+#port2,
+#port3,
+#port4,
+#runbuddy{
   transition-duration: 0.3s;
+
 }
 
 #contact{
