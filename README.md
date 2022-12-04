@@ -33,10 +33,9 @@ No collaborators.
 
 <br/>
 Example of responsiveness;
-<img width="1435" alt="normal_size" src="https://user-images.githubusercontent.com/114486176/205470290-9c9943e3-6070-4a7c-8b8c-61288f14c4be.png">
-<br/>
-<img width="877" alt="smaller_size" src="https://user-images.githubusercontent.com/114486176/205470297-38536650-17af-4b61-93b3-4d2e87845c5b.png">
-
+<img width="1435" alt="max" src="https://user-images.githubusercontent.com/114486176/205501359-007a5bcd-8f3c-4610-9c2d-b00187c8f10e.png">
+<img width="910" alt="mid" src="https://user-images.githubusercontent.com/114486176/205501360-618c3fde-59c2-421a-b1d6-11da832aa866.png">
+<img width="498" alt="small" src="https://user-images.githubusercontent.com/114486176/205501361-f7437bf6-4669-44cd-903c-4ed1f0eb3763.png">
 
 ## License
 MIT License. Please refer to the repository.
